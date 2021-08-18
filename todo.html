@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-08-13 Fri 23:32 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>মাইলস্টোন 4 + 5</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Shafiqur Rahman" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">মাইলস্টোন 4 + 5</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org60981b9">1. <span class="todo TODO">TODO</span> আগস্ট ৬: মডিউল ২১: More Problem Solving <code>[0/3]</code></a>
+<ul>
+<li><a href="#org3ca9b80">1.1. <span class="todo TODO">TODO</span> Task 1</a></li>
+<li><a href="#org2087d4f">1.2. <span class="todo TODO">TODO</span> Task 2</a></li>
+<li><a href="#org9283137">1.3. <span class="todo TODO">TODO</span> Task 3</a></li>
+</ul>
+</li>
+<li><a href="#org5871777">2. মাইলস্টোন ৫</a></li>
+<li><a href="#orgb513600">3. <span class="done DONE">DONE</span> আগস্ট ১১: মডিউল ২৩: How JavaScript Works &amp; <code>DOM</code></a></li>
+<li><a href="#orga8eba36">4. <span class="done DONE">DONE</span> আগস্ট ১২: মডিউল ২৪: Event, Event bubble</a></li>
+<li><a href="#org585e766">5. <span class="todo TODO">TODO</span> আগস্ট ১৩: নো মডিউল (HTML, CSS, DOM রিভিশন ডে)</a>
+<ul>
+<li><a href="#org4948a96">5.1. <span class="todo TODO">TODO</span> DOM এবং Event চেকলিস্ট। <code>[0/10]</code></a>
+<ul>
+<li><a href="#orgdcff07d">5.1.1. <span class="todo TODO">TODO</span> Task 0</a></li>
+<li><a href="#org9717a01">5.1.2. <span class="todo TODO">TODO</span> Task 1</a></li>
+<li><a href="#orgd943587">5.1.3. <span class="todo TODO">TODO</span> Task 2</a></li>
+<li><a href="#orgc7d3f90">5.1.4. <span class="todo TODO">TODO</span> Task 3</a></li>
+<li><a href="#orga9e1ced">5.1.5. <span class="todo TODO">TODO</span> Task 4</a></li>
+<li><a href="#orge57b8d3">5.1.6. <span class="todo TODO">TODO</span> Task 5</a></li>
+<li><a href="#org8b98ff8">5.1.7. <span class="todo TODO">TODO</span> Task 6</a></li>
+<li><a href="#orgb7152ed">5.1.8. <span class="todo TODO">TODO</span> Task 7</a></li>
+<li><a href="#org6f05f5b">5.1.9. <span class="todo TODO">TODO</span> Task 8</a></li>
+<li><a href="#org6baa321">5.1.10. <span class="todo TODO">TODO</span> Task 9</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org4baf5e8">6. <span class="todo TODO">TODO</span> আগস্ট ১৩: রাত ৯.০০: কন্সেপচুয়াল সেশন</a></li>
+<li><a href="#orgfab6e91">7. <span class="todo TODO">TODO</span> আগস্ট ১৪: মডিউল ২৫: Interactive bank website</a></li>
+<li><a href="#org3ffe788">8. <span class="todo TODO">TODO</span> আগস্ট ১৫: মডিউল ২৬: Bank website Final Calculation</a></li>
+<li><a href="#org2e9ed31">9. <span class="todo TODO">TODO</span> আগস্ট ১৬: নো মডিউল প্রাকটিস ডে</a></li>
+<li><a href="#orgfec5e71">10. <span class="todo TODO">TODO</span> আগস্ট ১৬: রাত ৯.০০: কন্সেপচুয়াল সেশন</a></li>
+<li><a href="#orgca88e84">11. <span class="todo TODO">TODO</span> আগস্ট ১৭: মডিউল ২৬: Shopping Cart and pin matching</a></li>
+<li><a href="#orgc2233ea">12. <span class="todo TODO">TODO</span> আগস্ট ১৮: মডিউল ২৭: JS built-in objects</a></li>
+<li><a href="#org579d8d7">13. <span class="todo TODO">TODO</span> আগস্ট ১৯:  মডিউল ২৭.৫: Practice/Revision Day</a></li>
+<li><a href="#org4808f0a">14. <span class="todo TODO">TODO</span> আগস্ট ১৯: রাত ৯.০০: নো মডিউল প্রাকটিস ডে</a></li>
+<li><a href="#orgfaea352">15. <span class="todo TODO">TODO</span> আগস্ট ২০: মডিউল ২৮:  এসাইনমেন্ট ৫</a></li>
+<li><a href="#orgf29b56f">16. <span class="todo TODO">TODO</span> আগস্ট ২১: বোনাস কনটেন্ট (মডিউল ২৮.৫)</a></li>
+<li><a href="#org0b1e10d">17. <span class="todo TODO">TODO</span> আগস্ট ২২: মাইলস্টোন ৬ (মডিউল ২৯)</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org60981b9" class="outline-2">
+<h2 id="org60981b9"><span class="section-number-2">1</span> <span class="todo TODO">TODO</span> আগস্ট ৬: মডিউল ২১: More Problem Solving <code>[0/3]</code></h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org3ca9b80" class="outline-3">
+<h3 id="org3ca9b80"><span class="section-number-3">1.1</span> <span class="todo TODO">TODO</span> Task 1</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Write a function that takes three numbers as input parameter and
+returns your largest.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2087d4f" class="outline-3">
+<h3 id="org2087d4f"><span class="section-number-3">1.2</span> <span class="todo TODO">TODO</span> Task 2</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Write a function to find the smallest of the three numbers.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9283137" class="outline-3">
+<h3 id="org9283137"><span class="section-number-3">1.3</span> <span class="todo TODO">TODO</span> Task 3</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>Find the lowest or smallest element of an array</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5871777" class="outline-2">
+<h2 id="org5871777"><span class="section-number-2">2</span> মাইলস্টোন ৫</h2>
+</div>
+<div id="outline-container-orgb513600" class="outline-2">
+<h2 id="orgb513600"><span class="section-number-2">3</span> <span class="done DONE">DONE</span> আগস্ট ১১: মডিউল ২৩: How JavaScript Works &amp; <code>DOM</code></h2>
+</div>
+<div id="outline-container-orga8eba36" class="outline-2">
+<h2 id="orga8eba36"><span class="section-number-2">4</span> <span class="done DONE">DONE</span> আগস্ট ১২: মডিউল ২৪: Event, Event bubble</h2>
+</div>
+<div id="outline-container-org585e766" class="outline-2">
+<h2 id="org585e766"><span class="section-number-2">5</span> <span class="todo TODO">TODO</span> আগস্ট ১৩: নো মডিউল (HTML, CSS, DOM রিভিশন ডে)</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org4948a96" class="outline-3">
+<h3 id="org4948a96"><span class="section-number-3">5.1</span> <span class="todo TODO">TODO</span> DOM এবং Event চেকলিস্ট। <code>[0/10]</code></h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-orgdcff07d" class="outline-4">
+<h4 id="orgdcff07d"><span class="section-number-4">5.1.1</span> <span class="todo TODO">TODO</span> Task 0</h4>
+<div class="outline-text-4" id="text-5-1-1">
+<p>
+তুমি পান্ডা কমার্স নামে একটা ওয়েবসাইট তৈরি করছিলা বেশ কিছুদিন আগে। এখন
+সেই ওয়েবসাইটটা আবার ওপেন করো। এরপর নিচের কাজগুলো করো।
+</p>
+</div>
+</div>
+<div id="outline-container-org9717a01" class="outline-4">
+<h4 id="org9717a01"><span class="section-number-4">5.1.2</span> <span class="todo TODO">TODO</span> Task 1</h4>
+<div class="outline-text-4" id="text-5-1-2">
+<p>
+নতুন একটা স্ক্রিপ্ট ফাইল খুলবে। সেটাকে index.html এর সাথে কানেক্ট করতে
+পারো কিনা?
+</p>
+</div>
+</div>
+<div id="outline-container-orgd943587" class="outline-4">
+<h4 id="orgd943587"><span class="section-number-4">5.1.3</span> <span class="todo TODO">TODO</span> Task 2</h4>
+<div class="outline-text-4" id="text-5-1-3">
+<p>
+যতগুলা ইলিমেন্টে h2 ট্যাগ আছে সেগুলাকে সিলেক্ট করে তার লেখাগুলার কালার
+lightblue করেদিতে পারো কিনা।
+</p>
+</div>
+</div>
+<div id="outline-container-orgc7d3f90" class="outline-4">
+<h4 id="orgc7d3f90"><span class="section-number-4">5.1.4</span> <span class="todo TODO">TODO</span> Task 3</h4>
+<div class="outline-text-4" id="text-5-1-4">
+<p>
+ওই ওয়েবসাইট এ backpack আইডি দিয়ে একটা সেকশন আছে। সেই সেকশনের
+ব্যাকগ্রাউন্ড কালার tomato করে দিতে পারো কিনা।
+</p>
+</div>
+</div>
+<div id="outline-container-orga9e1ced" class="outline-4">
+<h4 id="orga9e1ced"><span class="section-number-4">5.1.5</span> <span class="todo TODO">TODO</span> Task 4</h4>
+<div class="outline-text-4" id="text-5-1-5">
+<p>
+card ক্লাস যতগুলা জায়গায় ইউজ করা হয়েছে সবগুলা কার্ড এর বর্ডার রেডিয়াস
+৩০px করে দিতে পারো কিনা।
+</p>
+</div>
+</div>
+<div id="outline-container-orge57b8d3" class="outline-4">
+<h4 id="orge57b8d3"><span class="section-number-4">5.1.6</span> <span class="todo TODO">TODO</span> Task 5</h4>
+<div class="outline-text-4" id="text-5-1-6">
+<p>
+কোন একটা ফাংশন লিখো। সেটার ভিতরে কনসোল লগ হবে। এবং সেই ফাংশন টা
+ক্লিক হ্যান্ডলার হিসেবে কোন একটা বাটনে যোগ করো।
+</p>
+</div>
+</div>
+<div id="outline-container-org8b98ff8" class="outline-4">
+<h4 id="org8b98ff8"><span class="section-number-4">5.1.7</span> <span class="todo TODO">TODO</span> Task 6</h4>
+<div class="outline-text-4" id="text-5-1-7">
+<p>
+এইবার নতুন করে সবগুলা buy now বাটনে এমন একটা ইভেন্ট হ্যান্ডলার যোগ করো।
+যাতে যেকোন একটা buy now বাটনে চাপ দিলে চেষ্টা ওয়েবসাইট থেকে রিমুভ
+হয়ে যায়। একটু চিন্তা করে করার চেষ্টা করো।
+</p>
+</div>
+</div>
+<div id="outline-container-orgb7152ed" class="outline-4">
+<h4 id="orgb7152ed"><span class="section-number-4">5.1.8</span> <span class="todo TODO">TODO</span> Task 7</h4>
+<div class="outline-text-4" id="text-5-1-8">
+<p>
+একদম নিচে একটা LET'S STAY IN TOUCH নামে একটা জিনিস আছে। সেখানে তুমি
+submit বাটনটা disable করে ফেলবে। তারপর কেউ যদি উপরে input ফিল্ডে
+যদি একজাক্টলি email শব্দটা লিখে। তাহলে বাটন একটিভ হবে। আর যদি অন্য
+কিছু লিখে তাহলে বাটনটা একটিভ হবে না।
+</p>
+</div>
+</div>
+<div id="outline-container-org6f05f5b" class="outline-4">
+<h4 id="org6f05f5b"><span class="section-number-4">5.1.9</span> <span class="todo TODO">TODO</span> Task 8</h4>
+<div class="outline-text-4" id="text-5-1-9">
+<p>
+(অপশনাল) একটা মজার চ্যালেঞ্জ। কোন একটা ইমেজ এর উপরে mouseenter করলে
+সেই ইমেজটা চেইঞ্জ হয়ে যাবে। একটু গুগলে সার্চ দিয়ে দেখো। জিনিসটা কিভাবে
+করা যেতে পারে।
+</p>
+</div>
+</div>
+<div id="outline-container-org6baa321" class="outline-4">
+<h4 id="org6baa321"><span class="section-number-4">5.1.10</span> <span class="todo TODO">TODO</span> Task 9</h4>
+<div class="outline-text-4" id="text-5-1-10">
+<p>
+(অপশনাল) নিচের যে LET'S STAY IN TOUCH আছে সেখানে কোন খালি
+জায়গায় ডাবল ক্লিক করলে ঐটার পিছনের কালার চেইঞ্জ হয়ে যাবে।
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org4baf5e8" class="outline-2">
+<h2 id="org4baf5e8"><span class="section-number-2">6</span> <span class="todo TODO">TODO</span> আগস্ট ১৩: রাত ৯.০০: কন্সেপচুয়াল সেশন</h2>
+</div>
+<div id="outline-container-orgfab6e91" class="outline-2">
+<h2 id="orgfab6e91"><span class="section-number-2">7</span> <span class="todo TODO">TODO</span> আগস্ট ১৪: মডিউল ২৫: Interactive bank website</h2>
+</div>
+<div id="outline-container-org3ffe788" class="outline-2">
+<h2 id="org3ffe788"><span class="section-number-2">8</span> <span class="todo TODO">TODO</span> আগস্ট ১৫: মডিউল ২৬: Bank website Final Calculation</h2>
+</div>
+<div id="outline-container-org2e9ed31" class="outline-2">
+<h2 id="org2e9ed31"><span class="section-number-2">9</span> <span class="todo TODO">TODO</span> আগস্ট ১৬: নো মডিউল প্রাকটিস ডে</h2>
+</div>
+<div id="outline-container-orgfec5e71" class="outline-2">
+<h2 id="orgfec5e71"><span class="section-number-2">10</span> <span class="todo TODO">TODO</span> আগস্ট ১৬: রাত ৯.০০: কন্সেপচুয়াল সেশন</h2>
+</div>
+<div id="outline-container-orgca88e84" class="outline-2">
+<h2 id="orgca88e84"><span class="section-number-2">11</span> <span class="todo TODO">TODO</span> আগস্ট ১৭: মডিউল ২৬: Shopping Cart and pin matching</h2>
+</div>
+<div id="outline-container-orgc2233ea" class="outline-2">
+<h2 id="orgc2233ea"><span class="section-number-2">12</span> <span class="todo TODO">TODO</span> আগস্ট ১৮: মডিউল ২৭: JS built-in objects</h2>
+</div>
+<div id="outline-container-org579d8d7" class="outline-2">
+<h2 id="org579d8d7"><span class="section-number-2">13</span> <span class="todo TODO">TODO</span> আগস্ট ১৯:  মডিউল ২৭.৫: Practice/Revision Day</h2>
+</div>
+<div id="outline-container-org4808f0a" class="outline-2">
+<h2 id="org4808f0a"><span class="section-number-2">14</span> <span class="todo TODO">TODO</span> আগস্ট ১৯: রাত ৯.০০: নো মডিউল প্রাকটিস ডে</h2>
+</div>
+<div id="outline-container-orgfaea352" class="outline-2">
+<h2 id="orgfaea352"><span class="section-number-2">15</span> <span class="todo TODO">TODO</span> আগস্ট ২০: মডিউল ২৮:  এসাইনমেন্ট ৫</h2>
+</div>
+<div id="outline-container-orgf29b56f" class="outline-2">
+<h2 id="orgf29b56f"><span class="section-number-2">16</span> <span class="todo TODO">TODO</span> আগস্ট ২১: বোনাস কনটেন্ট (মডিউল ২৮.৫)</h2>
+</div>
+<div id="outline-container-org0b1e10d" class="outline-2">
+<h2 id="org0b1e10d"><span class="section-number-2">17</span> <span class="todo TODO">TODO</span> আগস্ট ২২: মাইলস্টোন ৬ (মডিউল ২৯)</h2>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Shafiqur Rahman</p>
+<p class="date">Created: 2021-08-13 Fri 23:32</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
